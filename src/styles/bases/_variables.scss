@@ -1,0 +1,25 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
+
+// Color
+$mainColor: #77D1E9;
+$secondaryColor: #4E85CB;
+$thirdColor: #23D1A7;
+
+// mixins
+
+@mixin radialGradientHeader {
+    background: radial-gradient(37.87% 544.36% at 12.12% 34.22%, $mainColor 0%, $secondaryColor 100%);
+}
+
+@mixin radialGradient {
+    background: radial-gradient(90.73% 90.73% at 50% 9.27%, $mainColor 0%, $secondaryColor 100%);
+}
+
+@mixin textShadowBlack {
+    text-shadow: (0 4px 4px black);
+}
+
+@mixin textLight {
+    text-shadow: 0 0 20px $mainColor;
+}

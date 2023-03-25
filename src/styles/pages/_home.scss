@@ -1,0 +1,28 @@
+@use '../bases/variables' as *;
+
+.home {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+
+    .circleImg {
+        align-self: center;
+        border-radius: 50%;
+        overflow: hidden;
+        width: 313px;
+        height: 313px;
+        border: 12px solid #424242;
+
+        img {
+            width: 313px;
+        }
+    }
+
+    .hook {
+        margin-left: 60px;
+        font-size: 38px;
+        width: 50%;
+        overflow: wrap;
+        @include textLight;
+    }
+}

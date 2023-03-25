@@ -1,0 +1,51 @@
+@use '../bases/variables' as *;
+
+header {
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @include radialGradientHeader;
+
+    .desc {
+        color: white;
+        @include textShadowBlack;
+        margin: 24px 35px;
+
+        h3 {
+            font-size: 28px;
+        }
+
+        h1 {
+            font-size: 48px;
+            margin: 20px 0;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: $mainColor;
+        width: 815px;
+        height: 115px;
+        margin-right: 45px;
+        border-radius: 32px;
+        box-shadow: 0px 2px 16px $thirdColor;
+
+        a {
+            text-decoration: none;
+            color: black;
+            font-size: 35px;
+
+            &.active {
+                text-decoration: underline;
+            }
+        }
+    }
+
+}
