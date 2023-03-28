@@ -1,5 +1,5 @@
 import React from 'react';
-import photo from '../assets/Chat-chien-Discordbot1.png'
+import photo from '../assets/photo-profile.jpeg'
 import HardSkills from '../components/HardSkills/HardSkills';
 
 const Home = () => {

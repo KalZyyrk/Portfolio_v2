@@ -1,10 +1,13 @@
 @use '../bases/variables' as *;
 
 .gallery {
+    margin-top: 25px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 500px;
+    height: auto;
+    flex-wrap: wrap;
+    gap: 30px;
 
     .card {
         display: flex;
