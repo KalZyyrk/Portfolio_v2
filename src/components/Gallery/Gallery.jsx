@@ -10,7 +10,8 @@ const Gallery = () => {
             <GalleryCard title='Booki-v2' link='https://booki-front.vercel.app/' github='https://github.com/KalZyyrk/Booki-Front/tree/master' img={bookiImg} />
             <GalleryCard title='Kasa' link='https://kasa-v1-tau.vercel.app/' github='https://github.com/KalZyyrk/kasa_v1' img={kasaImg} />
             <GalleryCard title='Oh My Food' link='https://kalzyyrk.github.io/Projet_3_Hischke_Ulysse/' github='https://github.com/KalZyyrk/Projet_3_Hischke_Ulysse' img={OMFImg} />
-            <GalleryCard title='Booki-v1' link='https://kalzyyrk.github.io/Projet_2_Hischke_Ulysse/' github='https://github.com/KalZyyrk/Projet_2_Hischke_Ulysse' img={bookiImg} />
+            <GalleryCard title='Booki-v1' link='https://kasa-vue-v2.vercel.app/' github='https://github.com/KalZyyrk/kasa-vue-v2' img={kasaImg} />
+            <GalleryCard title='Kasa-vue' link='https://kalzyyrk.github.io/Projet_2_Hischke_Ulysse/' github='https://github.com/KalZyyrk/Projet_2_Hischke_Ulysse' img={bookiImg} />
         </div>
     );
 }
