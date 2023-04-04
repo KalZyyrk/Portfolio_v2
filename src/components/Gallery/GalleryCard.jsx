@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../Button';
 
-const GalleryCard = ({ title, img, link, github }) => {
+const GalleryCard = ({ title, img, link, github, techno }) => {
     return (
         <div className='card'>
             <div className="card-preview">
@@ -11,7 +11,10 @@ const GalleryCard = ({ title, img, link, github }) => {
                     <Button name='Code' link={github} />
                 </div>
             </div>
-            <h2>{title}</h2>
+            <div className="desc">
+                <h2>{title}</h2>
+                <p>{techno}</p>
+            </div>
         </div>
     );
 }

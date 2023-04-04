@@ -31,6 +31,7 @@
                 width: 100%;
                 height: 80%;
                 border-radius: 25px;
+                object-fit: cover;
             }
 
             .preview-btn {
@@ -42,11 +43,24 @@
             }
         }
 
-        h2 {
-            margin-top: 12px;
-            margin-left: 20px;
-            font-size: 38px;
-            @include textShadowBlack
+        .desc {
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-end;
+            justify-content: space-between;
+            width: 100%;
+
+            h2 {
+                margin-top: 12px;
+                margin-left: 20px;
+                font-size: 38px;
+                @include textShadowBlack
+            }
+
+            p {
+                font-size: 20px;
+                @include textShadowBlack
+            }
         }
     }
 }
