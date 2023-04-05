@@ -1,0 +1,25 @@
+.contact_btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    background-color: aquamarine;
+    border-radius: 30px;
+    padding: 20px 30px;
+
+    a {
+        text-decoration: none;
+
+        img {
+            height: 100px;
+            width: 100px;
+            border-radius: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            color: black;
+        }
+    }
+}

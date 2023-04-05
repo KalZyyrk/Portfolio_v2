@@ -8,10 +8,10 @@ const Nav = () => {
                 isActive ? "active" : ""} >Home</NavLink>
             <NavLink to='/works' className={({ isActive, isPending }) =>
                 isActive ? "active" : ""} >Works</NavLink>
-            {/* {            <NavLink to='/social' className={({ isActive, isPending }) =>
-                isActive ? "active" : ""} >Social</NavLink>
+            {/* <NavLink to='/social' className={({ isActive, isPending }) =>
+                isActive ? "active" : ""} >Social</NavLink> */}
             <NavLink to='/contact' className={({ isActive, isPending }) =>
-                isActive ? "active" : ""} >Contact</NavLink>} */}
+                isActive ? "active" : ""} >Contact</NavLink>
         </nav>
     );
 }
